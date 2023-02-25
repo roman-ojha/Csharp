@@ -1,0 +1,15 @@
+D:\Programming\Csharp\Notes\01_Topic_Wise\bin\Debug\net7.0\01_Topic_Wise.exe
+D:\Programming\Csharp\Notes\01_Topic_Wise\bin\Debug\net7.0\01_Topic_Wise.deps.json
+D:\Programming\Csharp\Notes\01_Topic_Wise\bin\Debug\net7.0\01_Topic_Wise.runtimeconfig.json
+D:\Programming\Csharp\Notes\01_Topic_Wise\bin\Debug\net7.0\01_Topic_Wise.dll
+D:\Programming\Csharp\Notes\01_Topic_Wise\bin\Debug\net7.0\01_Topic_Wise.pdb
+D:\Programming\Csharp\Notes\01_Topic_Wise\obj\Debug\net7.0\01_Topic_Wise.csproj.AssemblyReference.cache
+D:\Programming\Csharp\Notes\01_Topic_Wise\obj\Debug\net7.0\01_Topic_Wise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Csharp\Notes\01_Topic_Wise\obj\Debug\net7.0\01_Topic_Wise.AssemblyInfoInputs.cache
+D:\Programming\Csharp\Notes\01_Topic_Wise\obj\Debug\net7.0\01_Topic_Wise.AssemblyInfo.cs
+D:\Programming\Csharp\Notes\01_Topic_Wise\obj\Debug\net7.0\01_Topic_Wise.csproj.CoreCompileInputs.cache
+D:\Programming\Csharp\Notes\01_Topic_Wise\obj\Debug\net7.0\01_Topic_Wise.dll
+D:\Programming\Csharp\Notes\01_Topic_Wise\obj\Debug\net7.0\refint\01_Topic_Wise.dll
+D:\Programming\Csharp\Notes\01_Topic_Wise\obj\Debug\net7.0\01_Topic_Wise.pdb
+D:\Programming\Csharp\Notes\01_Topic_Wise\obj\Debug\net7.0\01_Topic_Wise.genruntimeconfig.cache
+D:\Programming\Csharp\Notes\01_Topic_Wise\obj\Debug\net7.0\ref\01_Topic_Wise.dll

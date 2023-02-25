@@ -1,0 +1,20 @@
+*) Intro to C#:
+    -> C# is the programming language .NET allow us to us this programming language
+    -> .NET allow to execute the C# programming language in the computer
+    -> .Net is the framework that allow us to develop website, native mobile application, desktop application, gaming application
+
+*) Installation:
+    -> first install visual studio
+    -> command: dotnet
+    -> dotnet --version
+    -> to create project using command:
+        -> dotnet new
+        -> dotnet new console (to create console based application)
+        -> dotnet new console -o <app_name> (-o: output, console app)
+    
+    *) Run the C# program:
+        *) Terminal:
+            -> dotnet run (run the main program)
+        
+        *) Vscode Code runner extension:
+            -> https://youtu.be/CO4BGZOuUkM?t=436

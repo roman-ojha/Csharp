@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "01_Topic_Wise/1.0.0": {
+        "runtime": {
+          "01_Topic_Wise.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "01_Topic_Wise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
