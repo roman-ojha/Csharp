@@ -8,7 +8,7 @@ namespace Methods
             // here 'WriteLine' is the method of 'Console' class
         }
 
-        static public void Run(){
+        static public void Run(string[] args){
             // Static:
             // static method can also be called as instance members
             // it can be called directly with the class name

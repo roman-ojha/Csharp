@@ -12,7 +12,7 @@ namespace ApplicationArchitecture // a namespace - organization structure
     // namespace -have-> classes -have-> members -like-> methods -have-> statements
 
     class Prog{ // class - hah members (such as method)
-        static public void Run(){ // method
+        static public void Run(string[] args){ // method
             Console.WriteLine("Hello roman"); // statement
             Console.WriteLine("Best friend!"); // statement
 

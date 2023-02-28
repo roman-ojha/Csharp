@@ -2,7 +2,8 @@
 using System;
 // using HelloWorld; // 02
 // using ApplicationArchitecture; // 03
-using Methods; // 04
+// using Methods; // 04
+using CLAOfDotnetCLI; // 05
 
 namespace myproject
 {
@@ -10,7 +11,7 @@ namespace myproject
         static void Main(string[] args){
             // all of you c# executable need a Main method
             // this is where program starts 
-            Prog.Run();
+            Prog.Run(args);
         }
     }
 }
