@@ -1,13 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
-using HelloWorld;
+// using HelloWorld;
+using ApplicationArchitecture;
 
 namespace myproject
 {
     class Program{
         static void Main(string[] args){
-            Main r = new();
-            r.run();
+            // all of you c# executable need a Main method
+            // this is where program starts 
+            Prog.Run();
         }
     }
 }

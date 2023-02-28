@@ -2,8 +2,8 @@ using System;
 
 namespace HelloWorld
 {
-    class Main{
-        public void run(){
+    class Prog{
+        static public void Run(){
             Console.WriteLine("Hello roman");
         }
     }
