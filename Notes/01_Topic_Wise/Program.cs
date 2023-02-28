@@ -3,7 +3,8 @@ using System;
 // using HelloWorld; // 02
 // using ApplicationArchitecture; // 03
 // using Methods; // 04
-using CLAOfDotnetCLI; // 05
+// using CLAOfDotnetCLI; // 05
+using UserInput; // 06
 
 namespace myproject
 {

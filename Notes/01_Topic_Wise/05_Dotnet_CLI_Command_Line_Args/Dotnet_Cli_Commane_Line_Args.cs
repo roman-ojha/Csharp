@@ -3,10 +3,10 @@ using System;
 namespace CLAOfDotnetCLI
 {
     class Prog{
-        static void Main(string[] args){
+        // static void Main(string[] args){
             // here we are getting 'args' of type list of string as parameter where calling the 'Main' function we can pass the argument
             // and we can get the argument into 'args'
-        }
+        // }
 
         static public void Run(string[] args){
             // we can pass the argument into the method which that particular method will use to do things about it
