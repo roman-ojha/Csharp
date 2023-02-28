@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
-// using HelloWorld;
-using ApplicationArchitecture;
+// using HelloWorld; // 02
+// using ApplicationArchitecture; // 03
+using Methods; // 04
 
 namespace myproject
 {
