@@ -6,7 +6,8 @@ using System;
 // using CLAOfDotnetCLI; // 05
 // using UserInput; // 06
 // using VariablesAndExpressions; // 07
-using VariablesInitializationAndDeclaration; // 08
+// using VariablesInitializationAndDeclaration; // 08
+using SimpleValueDataTypes; // 09
 
 namespace myproject
 {
