@@ -46,6 +46,15 @@ namespace SimpleValueDataTypes
             // but the way it works & store is different
             string i = "Hello";
             // so it is called as a reference type
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.WriteLine(e);
+            Console.WriteLine(f);
+            Console.WriteLine(g);
+            Console.WriteLine(h);
+            Console.WriteLine(i);
         }
     }
 }

@@ -16,13 +16,16 @@ namespace VariablesInitializationAndDeclaration
             // here we assign value to a variable
 
             // C# is a compile language and it will given us error if we try to use uninitialized variable
-            int z;
+            // int z;
             // Console.WriteLine(z); // error
 
             // Sometime we don't want the variable to get uninitialized but you want to set the variable which doesn't have a value in that case we can use nul type
             int? a = null;
             // now we can use this variable
             Console.WriteLine(a);
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
         }
     }
 }
