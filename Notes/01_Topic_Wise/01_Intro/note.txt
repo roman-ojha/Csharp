@@ -1,5 +1,7 @@
 *) Intro to C#:
     -> C# is the programming language .NET allow us to us this programming language
+    -> It is a compiled type programming language
+    -> it is also statically type language
     -> .NET allow to execute the C# programming language in the computer
     -> .Net is the framework that allow us to develop website, native mobile application, desktop application, gaming application
 

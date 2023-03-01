@@ -4,7 +4,8 @@ using System;
 // using ApplicationArchitecture; // 03
 // using Methods; // 04
 // using CLAOfDotnetCLI; // 05
-using UserInput; // 06
+// using UserInput; // 06
+using VariablesAndExpressions; // 07
 
 namespace myproject
 {
