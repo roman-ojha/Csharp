@@ -3,21 +3,21 @@ using System;
 /*
     -> https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types
     *) C# Simple data types:
-        bool	System.Boolean
-        byte	System.Byte
-        sbyte	System.SByte
-        char	System.Char
-        decimal	System.Decimal
-        double	System.Double
-        float	System.Single
-        int	System.Int32
-        uint	System.UInt32
-        nint	System.IntPtr
-        nuint	System.UIntPtr
-        long	System.Int64
-        ulong	System.UInt64
-        short	System.Int16
-        ushort	System.UInt16
+        bool
+        byte
+        sbyte
+        char
+        decimal
+        double
+        float
+        int
+        uint
+        nint
+        nuint
+        long
+        ulong
+        short
+        ushort
 */
 
 namespace SimpleValueDataTypes
