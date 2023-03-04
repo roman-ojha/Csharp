@@ -16,7 +16,8 @@ using System;
 // using CharTypeAndASCII; // 15
 // using StringTypes; // 16
 // using StringEscapeSequence; // 18
-using VerbatimIdentifier; // 19
+// using VerbatimIdentifier; // 19
+using ClassMethodPropertiesExample; // 20
 
 namespace myproject
 {
