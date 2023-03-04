@@ -12,7 +12,8 @@ using System;
 // using BuildInTypes; // 11
 // using SignedAndUnsignedIntDataType; // 12
 // using FloatDoubleDecimalTypes; // 13
-using MathClass; // 14
+// using MathClass; // 14
+using CharTypeAndASCII; // 15
 
 namespace myproject
 {
