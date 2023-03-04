@@ -14,7 +14,9 @@ using System;
 // using FloatDoubleDecimalTypes; // 13
 // using MathClass; // 14
 // using CharTypeAndASCII; // 15
-using StringTypes; // 16
+// using StringTypes; // 16
+// using StringEscapeSequence; // 18
+using VerbatimIdentifier; // 19
 
 namespace myproject
 {
