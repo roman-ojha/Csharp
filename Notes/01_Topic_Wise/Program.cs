@@ -10,7 +10,8 @@ using System;
 // using SimpleValueDataTypes; // 09
 // using ValueAndReferenceTypes; // 10
 // using BuildInTypes; // 11
-using SignedAndUnsignedIntDataType; // 12
+// using SignedAndUnsignedIntDataType; // 12
+using FloatDoubleDecimalTypes; // 13
 
 namespace myproject
 {
