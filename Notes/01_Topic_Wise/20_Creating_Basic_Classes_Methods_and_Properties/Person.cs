@@ -27,7 +27,7 @@ namespace ClassMethodPropertiesExample
         // -> do something inside the class
         public string GetFullName()
         {
-            return FirstName + " " + LastName;
+            return FirstName + " " + _middleName + " " + LastName;
         }
 
         // Field:
