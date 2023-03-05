@@ -22,7 +22,9 @@ using System;
 // using LogicalAndComparisonOperators; // 22
 // using SwitchStatement; // 23
 // using TernaryOperator; // 24
-using SingleLineIfStatement; // 25
+// using SingleLineIfStatement; // 25
+// using WhileLoop; // 26
+using DoWhileLoop; // 27
 
 namespace myProject
 {
