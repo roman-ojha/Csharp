@@ -18,7 +18,8 @@ using System;
 // using StringEscapeSequence; // 18
 // using VerbatimIdentifier; // 19
 // using ClassMethodPropertiesExample; // 20
-using IfElseIfAndElse; // 21
+// using IfElseIfAndElse; // 21
+using LogicalAndComparisonOperators; // 22
 
 namespace myProject
 {
