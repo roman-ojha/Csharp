@@ -20,7 +20,9 @@ using System;
 // using ClassMethodPropertiesExample; // 20
 // using IfElseIfAndElse; // 21
 // using LogicalAndComparisonOperators; // 22
-using SwitchStatement; // 23
+// using SwitchStatement; // 23
+// using TernaryOperator; // 24
+using SingleLineIfStatement; // 25
 
 namespace myProject
 {
