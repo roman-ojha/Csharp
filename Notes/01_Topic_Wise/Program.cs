@@ -26,7 +26,8 @@ using System;
 // using WhileLoop; // 26
 // using DoWhileLoop; // 27
 // using ForLoop; // 28
-using NestedControlFlowAndLoop; // 29
+// using NestedControlFlowAndLoop; // 29
+using VariableScopeWithNestedControlFlow; // 30
 
 namespace myProject
 {
