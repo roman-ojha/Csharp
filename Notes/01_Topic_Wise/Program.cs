@@ -30,7 +30,8 @@ using System;
 // using VariableScopeWithNestedControlFlow; // 30
 // using BreakAndContinueKeyword; // 31
 // using ArrayType; // 32
-using SearchingAnArrayElement; // 33
+// using SearchingAnArrayElement; // 33
+using ArraySort; // 34
 
 namespace myProject
 {
