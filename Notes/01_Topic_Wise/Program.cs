@@ -31,7 +31,9 @@ using System;
 // using BreakAndContinueKeyword; // 31
 // using ArrayType; // 32
 // using SearchingAnArrayElement; // 33
-using ArraySort; // 34
+// using ArraySort; // 34
+// using ArrayMethods; // 35
+using MultidimensionalAndJaggedArray; // 36
 
 namespace myProject
 {
