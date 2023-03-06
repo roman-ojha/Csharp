@@ -29,7 +29,8 @@ using System;
 // using NestedControlFlowAndLoop; // 29
 // using VariableScopeWithNestedControlFlow; // 30
 // using BreakAndContinueKeyword; // 31
-using Array; // 32
+// using ArrayType; // 32
+using SearchingAnArrayElement; // 33
 
 namespace myProject
 {

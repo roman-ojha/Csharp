@@ -1,6 +1,6 @@
 using System;
 
-namespace Array
+namespace ArrayType
 {
     class Prog
     {
