@@ -2,9 +2,11 @@ using System;
 
 namespace UserInput
 {
-    class Prog{
+    class Prog
+    {
 
-        static public void Run(string[] args){
+        static public void Run(string[] args)
+        {
             // read like take an input
             // and it have the return type and it return an string
             // we now we can store that return value into th variable
@@ -19,6 +21,14 @@ namespace UserInput
             // it might also return null so we can use '?' for that
 
             Console.WriteLine($"Hello {first_name} {last_name}");
+
+            // take number:
+            string? nStr = Console.ReadLine();
+            if (nStr != null)
+            {
+                int n = int.Parse(nStr);
+            }
+            int number = Convert.ToInt32(Console.In.ReadLine());
         }
     }
 }

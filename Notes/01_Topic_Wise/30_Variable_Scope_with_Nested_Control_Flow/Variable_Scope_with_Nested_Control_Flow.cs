@@ -29,5 +29,11 @@ namespace VariableScopeWithNestedControlFlow
             // we can't access 'j' variable here
             Console.WriteLine(x); // 10
         }
+
+        public void xyz()
+        {
+            // accessing class variable
+            Console.WriteLine(x);
+        }
     }
 }
