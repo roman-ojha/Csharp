@@ -33,7 +33,8 @@ using System;
 // using SearchingAnArrayElement; // 33
 // using ArraySort; // 34
 // using ArrayMethods; // 35
-using MultidimensionalAndJaggedArray; // 36
+// using MultidimensionalAndJaggedArray; // 36
+using ListGeneric; // 37
 
 namespace myProject
 {
