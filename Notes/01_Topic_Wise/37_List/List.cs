@@ -102,6 +102,24 @@ namespace ListGeneric
                 Console.WriteLine("Equals!");
             }
 
+
+            // Converting List to array
+            int[] arr = grades.ToArray();
+            arr = grades.ToArray<int>();
+
+            // Converting array to list
+            grades = arr.ToList<int>();
+
+            // Sort List
+            grades = new List<int>() { 6, 5, 3, 2, 1 };
+            grades.Sort();
+            Console.WriteLine();
+            grades.ForEach((grade) => Console.Write(grade + " "));
+
+            // Reverse list
+            grades.Reverse();
+            Console.WriteLine();
+            grades.ForEach((grade) => Console.Write(grade + " "));
         }
     }
 }
