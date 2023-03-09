@@ -21,6 +21,38 @@ namespace ForEachLoop
 
             // we also have the method 'ForEach' loop of the type of data like "List"
             grades.ForEach(grade => Console.Write(grade + " "));
+
+            // So List implement the 'IEnumerable' Interface so because of that we can be able to use foreach for the List type
+            // if some type that implement the 'IEnumerable' Interface then we can use foreach on those type as well
+            // 'Array' type also implement 'IEnumerable' Interface
+            // and We can convert the 'List' into arrayl
+            // Example that implement 'IEnumerable' are:
+            // HashSet<T>, Array, List<T>, LinkedList<T>, Queue<T>
+
+            Console.WriteLine();
+            foreach (int grade in grades.ToArray<int>())
+            {
+                Console.Write(grade + " ");
+            }
+
+            // Nested Foreach loop
+            // 2D, Multidimensional array
+
+            List<List<int>> m2d = new List<List<int>>(){
+                new List<int>(){1,2},
+                new List<int>(){3,4,5,6},
+                new List<int>(){7,8,9},
+            };
+
+            Console.WriteLine();
+            foreach (List<int> intList in m2d)
+            {
+                foreach (int elm in intList)
+                {
+                    Console.Write(elm + " ");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
