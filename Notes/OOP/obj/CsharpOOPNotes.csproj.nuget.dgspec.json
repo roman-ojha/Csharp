@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Csharp\\Notes\\CsharpOOPNotes\\CsharpOOPNotes.csproj": {}
+    "D:\\Programming\\Csharp\\Notes\\OOP\\CsharpOOPNotes.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Csharp\\Notes\\CsharpOOPNotes\\CsharpOOPNotes.csproj": {
+    "D:\\Programming\\Csharp\\Notes\\OOP\\CsharpOOPNotes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Csharp\\Notes\\CsharpOOPNotes\\CsharpOOPNotes.csproj",
+        "projectUniqueName": "D:\\Programming\\Csharp\\Notes\\OOP\\CsharpOOPNotes.csproj",
         "projectName": "CsharpOOPNotes",
-        "projectPath": "D:\\Programming\\Csharp\\Notes\\CsharpOOPNotes\\CsharpOOPNotes.csproj",
+        "projectPath": "D:\\Programming\\Csharp\\Notes\\OOP\\CsharpOOPNotes.csproj",
         "packagesPath": "C:\\Users\\razzr\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Csharp\\Notes\\CsharpOOPNotes\\obj\\",
+        "outputPath": "D:\\Programming\\Csharp\\Notes\\OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\razzr\\AppData\\Roaming\\NuGet\\NuGet.Config",

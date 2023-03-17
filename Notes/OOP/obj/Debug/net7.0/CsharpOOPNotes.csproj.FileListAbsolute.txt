@@ -1,0 +1,15 @@
+D:\Programming\Csharp\Notes\OOP\bin\Debug\net7.0\CsharpOOPNotes.exe
+D:\Programming\Csharp\Notes\OOP\bin\Debug\net7.0\CsharpOOPNotes.deps.json
+D:\Programming\Csharp\Notes\OOP\bin\Debug\net7.0\CsharpOOPNotes.runtimeconfig.json
+D:\Programming\Csharp\Notes\OOP\bin\Debug\net7.0\CsharpOOPNotes.dll
+D:\Programming\Csharp\Notes\OOP\bin\Debug\net7.0\CsharpOOPNotes.pdb
+D:\Programming\Csharp\Notes\OOP\obj\Debug\net7.0\CsharpOOPNotes.csproj.AssemblyReference.cache
+D:\Programming\Csharp\Notes\OOP\obj\Debug\net7.0\CsharpOOPNotes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Csharp\Notes\OOP\obj\Debug\net7.0\CsharpOOPNotes.AssemblyInfoInputs.cache
+D:\Programming\Csharp\Notes\OOP\obj\Debug\net7.0\CsharpOOPNotes.AssemblyInfo.cs
+D:\Programming\Csharp\Notes\OOP\obj\Debug\net7.0\CsharpOOPNotes.csproj.CoreCompileInputs.cache
+D:\Programming\Csharp\Notes\OOP\obj\Debug\net7.0\CsharpOOPNotes.dll
+D:\Programming\Csharp\Notes\OOP\obj\Debug\net7.0\refint\CsharpOOPNotes.dll
+D:\Programming\Csharp\Notes\OOP\obj\Debug\net7.0\CsharpOOPNotes.pdb
+D:\Programming\Csharp\Notes\OOP\obj\Debug\net7.0\CsharpOOPNotes.genruntimeconfig.cache
+D:\Programming\Csharp\Notes\OOP\obj\Debug\net7.0\ref\CsharpOOPNotes.dll
