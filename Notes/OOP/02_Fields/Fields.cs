@@ -20,6 +20,8 @@ namespace Fields
         public string? Name;
         // private field:
         private int _id;
+
+        private string? _firstName;
     }
     class Prog
     {
