@@ -19,9 +19,14 @@ namespace Fields
         // public field:
         public string? Name;
         // private field:
-        private int _id;
+        private int _id = 10;
 
-        private string? _firstName;
+        private string? _firstName = "roman";
+
+        public string getInfo()
+        {
+            return "id: " + _id + "First Name: " + _firstName;
+        }
     }
     class Prog
     {

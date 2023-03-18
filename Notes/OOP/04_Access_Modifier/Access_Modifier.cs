@@ -5,10 +5,15 @@ namespace AccessModifier
     class Person
     {
         // private field
-        private int _id;
+        private int _id = 10;
 
         // public field
         public string? Name;
+
+        public int getId()
+        {
+            return _id;
+        }
     }
 
     class Prog

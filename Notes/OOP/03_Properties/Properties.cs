@@ -40,10 +40,18 @@ namespace Properties
         {
             // specifying what to do when
             // while getting the property value we will return the value of '_firstName' field
+            // Getter:
             get { return _firstName; }
+
             // while setting the value we will set the value of the property to the '_firstName' field
+            // Setter:
             set { _firstName = value; }
             // here keyword 'value' is the set accessor
+            // 'value' is the value that we assign to the 'SFirstName'
+            // so 'value' is the implicit parameter
+
+            // if you want to store value in lower case that you can customize that 
+            // set { _firstName = value.ToLower(); }
         }
 
         // When a property implementation is a single expression, you can use expression-bodied members for the getter or setter:
@@ -81,7 +89,28 @@ namespace Properties
 
         // Read only property:
         // You can also restrict modifications to a property so that it can only be set in a constructor. You can modify the Person class so as follows:
-        public string? RFirstName { get; }
+        public string? RFirstName
+        {
+            get
+            {
+                // read only property having only getter
+                return _firstName.ToLower();
+            }
+        }
+
+        // Customizing property Getter and Setter
+        public string FullName
+        {
+            get
+            {
+                return _firstName + " " + _lastName;
+            }
+            set
+            {
+                _firstName = value.Split(" ")[0];
+                _lastName = value.Split(" ")[1];
+            }
+        }
 
 
         // Todo from here:
