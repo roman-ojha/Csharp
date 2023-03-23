@@ -44,9 +44,25 @@ namespace ListOfCustomClass
 
             // 'Person' array size of 10
             Person[] persons2 = new Person[10];
-            persons2[0].Name = "Roman Ojha";
-            persons2[1].Name = "Razz Roman";
+            // persons2[0].Name = "Roman Ojha";
+            // persons2[1].Name = "Razz Roman";
             Person[] persons3 = { new Person(), new Person() };
+
+
+            // Getting list of person info
+            List<Person> persons4 = new List<Person>();
+            for (int i = 0; i < 3; i++)
+            {
+                Person p = new Person();
+                p.Name = Console.ReadLine() ?? "";
+                persons4.Add(p);
+            }
+
+            // Iterating through person4 list
+            foreach (Person person in persons4)
+            {
+                Console.WriteLine(person.Name);
+            }
         }
     }
 }

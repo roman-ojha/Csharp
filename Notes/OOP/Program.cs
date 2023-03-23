@@ -4,7 +4,8 @@
 // using Properties; // 03
 // using AccessModifier; // 04
 // using Methods; // 05
-using ListOfCustomClass; // 07
+// using ListOfCustomClass; // 07
+using PassingCustomTypesAsArgs; // 08
 
 namespace myProject
 {
