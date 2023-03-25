@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace StaticMethods
 {
@@ -11,6 +12,18 @@ namespace StaticMethods
     */
     class User{
         public string Name { get; set; }
+
+        public static void PrintUser(User user){
+            // because this is the statice method this can't have the access of this object.
+            // so it have to get the user object as an parameter.
+            Console.WriteLine("User Name: {0}", user.Name);
+        }
+
+        public static void PrintUsers(List<User> users){
+            forEach(User user in users){
+                Console.WriteLine("User Name: {0}", user.Name);
+            }
+        }
     }
     class Prog{
 
@@ -25,6 +38,15 @@ namespace StaticMethods
 
         public void DoSomething(){
             Console.WriteLine("Doing Something");
+            User user = new User();
+            user.Name = "Roman Ojha";
+
+            // calling the static method using the class name.
+            User.PrintUser(user);
+
+            List<User> users = new List<User>();
+            users.Add(new User(){Name = "Roman Ojha"})
+            users.Add(new User(){Name = "Razz Roman"})
         }
     }
 }
