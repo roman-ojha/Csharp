@@ -7,7 +7,8 @@
 // using ListOfCustomClass; // 07
 // using PassingCustomTypesAsArgs; // 08
 // using StaticMethods; // 09
-using MethodOverloading; // 10
+// using MethodOverloading; // 10
+using DefaultParameters; // 11
 
 namespace myProject
 {
