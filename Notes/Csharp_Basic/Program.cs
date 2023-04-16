@@ -4,7 +4,7 @@ using System;
 // using ApplicationArchitecture; // 03
 // using Methods; // 04
 // using CLAOfDotnetCLI; // 05
-// using UserInput; // 06
+// using UserInputAndOutput; // 06
 // using VariablesAndExpressions; // 07
 // using VariablesInitializationAndDeclaration; // 08
 // using SimpleValueDataTypes; // 09
