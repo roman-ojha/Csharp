@@ -48,9 +48,19 @@ namespace MethodOverriding
             // to use 'obj' we need to cast it to the DerivedClass type
         }
 
+        // We also need to override the 'GetHashCode()' method if we override the 'Equals()' method
+        // HashTable is the data structure that allows us to store the information
+        // And the same this happen with the Object in C# to store the information
+        // Because of that we can get the information from the object using the 'GetHashCode()' method
+        // HashCode is a unique number that is assigned to each object
+        // GetHashCode() method is useful when we want to store the object in the HashTable
         public override int GetHashCode()
         {
+            // We can just return the default base.GetHashCode() method
             return base.GetHashCode();
+
+            // If we will return Name.GetHashCode() then we will get the same hash code for all the objects that have to same name value if we will call the GetHashCode() method for those object
+            // return Name.GetHashCode();
         }
     }
 

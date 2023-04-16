@@ -9,6 +9,11 @@ namespace MethodOverloading
             - It is also known as compile time polymorphism.
             - Method overloading increases the readability of the program.
             - Method overloading is used to perform different operations using the same method name.
+            *) Method Signature:
+                - The method signature consists of the method name and the parameter list.
+                - The return type is not a part of the method signature.
+                - The method signature must be unique.
+            - So So Having different method signature with same method name is called method overloading.
     */
     class Calculation
     {
