@@ -14,3 +14,13 @@
         -> dotnet tool install --global Microsoft.VisualStudio.SlnGen.Tool --add-source https://api.nuget.org/v3/index.json --ignore-failed-sources
     *> Generate:
         -> slngen
+        
+*) Add, Remove, Create, Modify '.sln' file
+    -> https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln
+    -> dotnet sln (provides a convenient way to list and modify projects in a solution file.)
+    -> dotnet sln list (list of all the project inside the solution)
+    -> dotnet new sln (create sln file)
+    -> dotnet new sln --name <name_of_solution> (create sln with given name)
+    -> dotnet new sln --output <name_of_solution> (create sln inside given solution name folder)
+    -> dotnet sln add <Project_Path> (to add given project into solution)
+    -> dotnet sln remove <Project_Path> (to remove given project from solution)
