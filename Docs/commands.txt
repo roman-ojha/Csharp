@@ -1,0 +1,16 @@
+*) Create Project using dotnet cli:
+    -> dotnet new (to see all the template name, tags to create dotnet app)
+    -> dotnet new <template_name>
+*) Create ASP.NET Core MVC:
+    -> dotnet new mvc --name <app_name>
+
+*) Run the application 
+    -> dotnet run (to run the application)
+    -> dotnet watch run (run the application with hot reload feature)
+    
+*) Generate '.sln' file for the current project:
+    -> https://github.com/microsoft/SlnGen
+    *> Install:
+        -> dotnet tool install --global Microsoft.VisualStudio.SlnGen.Tool --add-source https://api.nuget.org/v3/index.json --ignore-failed-sources
+    *> Generate:
+        -> slngen
