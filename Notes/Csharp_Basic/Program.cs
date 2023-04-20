@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+/*
 // using HelloWorld; // 02
 // using ApplicationArchitecture; // 03
 // using Methods; // 04
@@ -34,8 +35,9 @@ using System;
 // using ArraySort; // 34
 // using ArrayMethods; // 35
 // using MultidimensionalAndJaggedArray; // 36
-using ListGeneric; // 37
-// using ForEachLoop; // 38
+// using ListGeneric; // 37
+*/
+using ForEachLoop; // 38
 
 namespace myProject
 {

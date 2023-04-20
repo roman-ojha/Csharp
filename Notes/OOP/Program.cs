@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+// using System;
 // using ClassAndObject; // 01
 // using Fields; // 02
 // using Properties; // 03
@@ -13,6 +14,7 @@
 // using ReturnCustomObject; // 13
 // using Inheritance; // 14
 // using Virtual_Methods_and_Override_It; // 15
+*/
 using Abstract_Class; // 16
 
 namespace myProject
