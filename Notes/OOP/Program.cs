@@ -17,8 +17,9 @@
 // using Abstract_Class; // 16
 // using Constructor; // 19
 // using ConstructorToAssignToReadOnlyProperties; // 20
+// using CallBaseClassConstructor; // 21
 */
-using CallBaseClassConstructor; // 21
+using InterfaceExample;
 
 
 namespace myProject

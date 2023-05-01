@@ -64,12 +64,13 @@ namespace Inheritance
                             }
                 4) Multiple Inheritance
                     -> In multiple inheritance, a derived class inherits the properties of multiple base classes.
-                        -> EX: class A and class B are the base class and class C is the derived class of class A and class B.
+                    -> But in case of C# we can't inherit multiple classes. so we use interface or combination of one class and interface to achieve multiple inheritance.
+                        -> EX: class A and class B are the base classes and class C is the derived class.
                             class A
                             {
                                 // code
                             }
-                            class B
+                            interface B
                             {
                                 // code
                             }
