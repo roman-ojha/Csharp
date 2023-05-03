@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Lab01Q1;
+
+namespace Programs
+{
+    class Program
+    {
+        static public void Main(string[] args)
+        {
+            Prog.Run(args);
+        }
+    }
+}

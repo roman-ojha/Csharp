@@ -3,9 +3,12 @@ using Inheritance;
 using Constructor;
 using FileHandling;
 using CSharpGenerics;
+using System.Collections.Generic;
+using LINQ;
 
 namespace Day1
 {
+
     class Program
     {
         static void Main(string[] args)
@@ -42,10 +45,14 @@ namespace Day1
 
             // Generics:
             GenericProg.CSharpGenericEx();
+
+            // LINQ:
+            Linq.Run();
         }
     }
     // indexer
     // Dictionary : System.Collection.Generic
     // Queue
     // Stack
+
 }
