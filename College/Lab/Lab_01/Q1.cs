@@ -1,6 +1,7 @@
 using System;
 namespace Lab01Q1
 {
+    // 1. Write a program to show the concept of 3 dimenstional array.
     class Prog
     {
         static public void Run(string[] args)

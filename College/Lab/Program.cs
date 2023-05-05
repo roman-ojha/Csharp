@@ -1,4 +1,6 @@
-﻿using Lab01Q1;
+﻿// using Lab01Q1;
+// using Lab01Q2;
+using Lab01Q3;
 
 namespace Programs
 {
