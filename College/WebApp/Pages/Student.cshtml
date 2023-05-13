@@ -1,0 +1,21 @@
+@page
+@model StudentModel
+@{
+ViewData["Title"] = "Student";
+}
+
+<form method="post">
+  <div>
+    <label asp-for="Num1"></label>
+    <input placeholder="Number 1" asp-for="Num1" />
+    <span asp-validation-for="Num1" class="text-denger"></span>
+  </div>
+  <div>
+    <label asp-for="Num1"></label>
+    <input placeholder="Number 2" asp-for="Num2" />
+    <span asp-validation-for="Num2" class="text-denger"></span>
+  </div>
+  <input type="submit" name="Submit" value="Add" />
+  @Model.Sum
+  <img src="~/assets/images/windows.jpg" width="200px" height="200px"/>
+</form>
