@@ -98,37 +98,53 @@
         // Property:
         public string? FullName { get; set; }
 
+        public class Calculation {
+            public int A { get; set; }
+            public int B { get; set; }
+
+            public Calculation(int A, int B)
+            {
+                this.A = A;
+                this.B = B;
+            }
+            // Indexer
+            public int this[int index]
+            {
+                get
+                {
+                    return A+B;
+                }
+                set
+                {
+                    if (index == 0)
+                        A = value;
+                    else
+                        B = value;
+                }
+            }
+        }
+        // Todo:
+        // Inheritance
+        // new keyword method
+        // virtual keyword method
+        // override keyword method
+        // struct
+        // enum
+        // method overloading
+        // method overriding
+        // base keyword
+        // abstract class
+        // abstract method
+        // Interface
+        // Generics
+        
+
         static void Main(string[] args)
         {
             Calculation calc = new Calculation(1,2);
             Console.WriteLine(calc[0]);
+            
         }
     }
 
-    public class Calculation
-    {
-        public int A { get; set; }
-        public int B { get; set; }
-
-        public Calculation(int A, int B)
-        {
-            this.A = A;
-            this.B = B;
-        }
-        // Indexer
-        public int this[int index]
-        {
-            get
-            {
-                return A+B;
-            }
-            set
-            {
-                if (index == 0)
-                    A = value;
-                else
-                    B = value;
-            }
-        }
-    }
 }
